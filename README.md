@@ -23,8 +23,11 @@ Ensure that when setting up your environment you enable full gmail scope or edit
   from gmail import Gmail
 ## Create an email 
   email = Gmail('sender@email.com', 'receiver@email.com', 'title text', 'body text', 'signature')
+  
   email = Gmail('sender@email.com', ['receiver1@email.com', 'receiver2@email.com'], 'title text', 'body text', 'signature')
+  
   email = Gmail('sender@email.com', 'receiver@email.com', 'title text', 'body text', 'signature', ['attachment1.file', 'attachment2.file'])
+  
   email = Gmail('sender@email.com', 'receiver@email.com', 'title text', 'body text', 'signature', ['attachment.file'], credential)
  
 ## Draft an email
