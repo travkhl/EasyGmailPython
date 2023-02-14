@@ -13,6 +13,7 @@ NOTE: you can stop before setting up quickstart.py as that functionality is inte
 Ensure that when setting up your environment you enable full gmail scope or edit the scope in this class as necessary.  
 
 # Quickstart
+- pip install --upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib
 - Create a new project in your Google Cloud Console dashboard
 - Enable the Gmail API
 - Configure your Oauth consent screen to include the Gmail API
