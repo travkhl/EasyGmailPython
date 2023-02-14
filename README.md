@@ -32,8 +32,10 @@ Ensure that when setting up your environment you enable full gmail scope or edit
  
 ## Draft an email
   email.build()
+  
   email.draft()
   
 ## Send an email
   email.build()
+  
   email.send()
